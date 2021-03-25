@@ -66,6 +66,3 @@ paths:
   blog: /blog/
   categories: /blog/categories/
   tags: /blog/tags/
-
-  AddThis sharing plugin
-  - jekyll-feed
