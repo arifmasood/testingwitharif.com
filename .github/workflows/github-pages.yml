@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Build and deploy Jekyll site to GitHub Pages
 
 on:
   push:
@@ -6,15 +6,10 @@ on:
       - master
 
 jobs:
-  deploy:
-    runs-on: ubuntu-18.04
+  github-pages:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
-          allow_empty_commit: true
-          enable_jekyll: true
-          cname: testingwitharif.com
+      - uses: helaili/jekyll-action@2.0.5
+        env:
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
