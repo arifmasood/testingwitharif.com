@@ -24,7 +24,7 @@ sass:
 url:  http://testingwitharif.com # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: Testing With Arif
-description: "Software QA, Functional, Automation & Load Testing with Arif - Blog"
+description: "Software QA, Automation & Load Testing with Arif"
 keywords: 'test-automation,performance-testing,selenium,cypress,jmeter'
 author:
   name: Arif Masood
