@@ -21,27 +21,27 @@ sass:
   style: compressed
 
 # Site Data
-url: # the base hostname & protocol for your site, e.g. http://example.com
+url:  http://testingwitharif.com # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: Testing With Arif
-description: "A gem-based responsive simple texture styled Jekyll theme."
-keywords: 'jekyll,theme,gem-based,blog'
+description: "Software QA, Functional, Automation & Load Testing with Arif - Blog"
+keywords: 'test-automation,performance-testing,selenium,cypress,jmeter'
 author:
-  name:
-  job_title:
-  location:
-  email:
+  name: Arif Masood
+  job_title: Software Quality Enthusiast
+  location: Dubai, UAE
+  email: me@testingwitharif.com
   social_links:
     - name: facebook
       url:
     - name: github
-      url: https://github.com/arifmasood/testingwitharif.com
+      url: https://github.com/arifmasood
     - name: instagram
       url:
     - name: linkedin
-      url:
+      url: https://www.linkedin.com/in/arif7d/
     - name: stackoverflow
-      url:
+      url: https://stackoverflow.com/users/2493338/testingwitharif?tab=profile
     - name: twitter
       url:
     - name: vk
@@ -53,7 +53,7 @@ home:
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License.
-  footer_content: A gem-based responsive simple texture styled <a href="http://jekyllrb.com/">Jekyll</a> theme.
+  # footer_content: A gem-based responsive simple texture styled <a href="http://jekyllrb.com/">Jekyll</a> theme.
 
 disqus:
   shortname: # e.g. yizeng
