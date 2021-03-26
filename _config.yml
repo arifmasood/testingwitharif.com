@@ -21,7 +21,7 @@ sass:
   style: compressed
 
 # Site Data
-url:  http://testingwitharif.com # the base hostname & protocol for your site, e.g. http://example.com
+url:  http://testingwitharif.com # the base hostname/protocol of site. ex: http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: Testing With Arif
 description: "Software QA, Automation & Load Testing with Arif"
